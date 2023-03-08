@@ -1,13 +1,117 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    --bg: #f3c1f0;
+    --hover-bg: #ffffff;
+    --hover-text: rgb(4, 4, 5);
+    color: rgb(16, 76, 155);
+    font-weight: 500;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+    width: 290px;
+    height: fit-content;
+    text-align: center;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+  .wrapper {
+    position: relative;
+    background: #1f1144;
+  }
+
+  .font {
+    font-family: 'Fugaz One', cursive;    
+    font-size: 30px;
+  }
+
+  .Clipboard {
+    position: relative;
+  }
+  .copyButton {
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    font-size: 18px;
+  }
+  .copyButtonDark {
+    color:white
+  }
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.resizer {
+  width: 3px;
+  top: 0;
+  right: 0;
+  cursor: col-resize;
+  height: 100%;
+  position: absolute;
+  background-color: #42b362;
 }
+
+  body {
+    --black: #000000;
+    --ash-black: #222;
+    --white: #fafafa;
+    --background: var(--black);
+    --accent: var(--white);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background);
+    color: var(--accent);
+  }
+  
+  * {
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  ::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: #fff3;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: #fff3;
+  }
+
+  
+  /*  .font {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+  }
+
+  background: tailwind could be use
+  bg-gradient-to-t from-purple-800 via-violet-900 to-purple-800
+  bg-gradient-to-t from-pink-300 via-gray-100 to-purple-900
+  */
