@@ -12,7 +12,7 @@
 
 ## Project Link 🔭
 
-`The project has not deployed yet but this will be here soon` => [Review](https://developer-workspace.vercel.app/)
+`The project has not deployed yet but this will be here soon` => [Review]
 
 ## Licance
 ### `MIT` ⚖️
