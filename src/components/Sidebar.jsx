@@ -8,7 +8,6 @@ import AppLogo from './AppLogo';
 
 export default function Sidebar () {
   return (
-
     <div className="flex flex-col gap-10 h-fit w-fit items-center justify-center cursor-default">
         <div className="flex w-fit h-48 items-center justify-center mt-20">
             <div className="grid grid-col-2 gap-4 h-fit w-fit text-sm 
