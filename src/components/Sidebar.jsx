@@ -5,7 +5,6 @@ import * as React from "react";
 import { NavLink } from 'react-router-dom';
 import AppLogo from './AppLogo';
 
-
 export default function Sidebar () {
   return (
     <div className="flex flex-col gap-10 h-fit w-fit items-center justify-center cursor-default">
