@@ -2,7 +2,6 @@
 import { BsSoundwave } from  'react-icons/bs';
 //Typewriter
 import { Typewriter, Cursor } from 'react-simple-typewriter';
-
 export default function Login() {
     
     const handleClick = async () => {
