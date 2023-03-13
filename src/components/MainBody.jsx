@@ -9,7 +9,6 @@ export default function   Body() {
   const [{ token, selectedPlaylist, selectedPlaylistId }, dispatch] =
     useStateProvider();
     
-
   useEffect(() => {
     const getInitialPlaylist = async () => {
       const response = await axios.get(
