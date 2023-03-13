@@ -1,5 +1,5 @@
 # Soundon Music Application 💻
-`This is first version (2.1) of the music application with Spotify API..`
+`This is first version (2.1) of the music application with Spotify API.`
 
 ## Used Techs 🥰
 
