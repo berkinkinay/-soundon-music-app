@@ -1,13 +1,14 @@
 import axios from "axios";
-import React, { useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import { useStateProvider } from "../utils/StateProvider";
 import { AiFillClockCircle } from "react-icons/ai";
 import { reducerCases } from "../utils/Constants";
 import Navbar from './Navbar';
 
-export default function   Body({ headerBackground }) {
+export default function   Body() {
   const [{ token, selectedPlaylist, selectedPlaylistId }, dispatch] =
     useStateProvider();
+    
 
   useEffect(() => {
     const getInitialPlaylist = async () => {
@@ -87,12 +88,9 @@ export default function   Body({ headerBackground }) {
       };
   return (
     <div class="flex flex-col items-center h-screen bg-zinc-900 w-full">
-      <div class="flex object-top w-full h-20 bg-black">
-           <Navbar />
-       </div>
          {selectedPlaylist && (
          <>
-            <div class="flex flex-col gap-1 w-full h-screen bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))]
+            <div class="flex! flex-col gap-1 w-full h-screen! bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))]
                        from-gray-900 via-black to-gray-900 overflow-auto"
                   >
                     <div class="flex flex-col m-4 items-center justify-center">
@@ -123,7 +121,7 @@ export default function   Body({ headerBackground }) {
                       </div> 
                     </div>
 
-                  <div className="flex flex-col w-full h-screen">
+                  <div className="flex! flex-col w-full h-screen">
                     {selectedPlaylist.tracks.map(
                   (
                     {
@@ -144,8 +142,8 @@ export default function   Body({ headerBackground }) {
                             class="flex flex-col items-left indent-2 w-[full] gap-10 m-1"
                             >
                               <div 
-                              class="grid grid-cols-3 w-full h-16 items-left hover:bg-zinc-900 hover:delay-50 rounded-lg"
-                              >
+                                class="grid grid-cols-3 w-full h-16 items-left hover:bg-zinc-900 hover:delay-50 rounded-lg"
+                               >
                                   <div class="flex h-full w-fit gap-5 items-center">
                                       <span class="flex text-xs w-3 h-fit">{index + 1}</span>
                                       <img class="w-12 h-12"src={image} alt=""/>
