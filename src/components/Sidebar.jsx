@@ -1,10 +1,13 @@
-import Playlist from './PlayList'
-import { BsSpotify, BsFillPlayFill, BsListUl  } from 'react-icons/bs'
-import { FcLike } from 'react-icons/fc'
 import * as React from "react";
 import { NavLink } from 'react-router-dom';
+//COMPONENTS
+import Playlist from './PlayList'
 import AppLogo from './AppLogo';
-
+//ICONS
+import { BsSpotify, BsFillPlayFill, 
+        BsListUl  } 
+from 'react-icons/bs'
+import { FcLike } from 'react-icons/fc'
 
 export default function Sidebar () {
   return (
