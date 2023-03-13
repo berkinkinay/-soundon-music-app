@@ -4,6 +4,7 @@ import { BsSoundwave } from  'react-icons/bs';
 import { Typewriter, Cursor } from 'react-simple-typewriter';
 
 export default function Login() {
+    
     const handleClick = async () => {
       const client_id = "88f9d148f03840d18ae41a1cd1d37a9a";
       const redirect_uri = "http://localhost:3000/soundon";
