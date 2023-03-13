@@ -15,7 +15,6 @@ const AppLogo = () => {
                         bg-gradient-to-r from-slate-100 to-purple-900 text-2xl'
              >
                soundon   <BsSoundwave size='0.8em' color='' className='mt-2 text-slate-100'/>
-
             </h1>
         </div>
     </header>
