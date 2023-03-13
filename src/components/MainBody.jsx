@@ -173,6 +173,3 @@ export default function   Body({ headerBackground }) {
     </div>
   );
 }
-//Burada reuturn de arayüz yazılmaya devam edilecek dk 1.47 den devam 
-
-//bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-black via-violet-900 to-purple-900
