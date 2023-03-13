@@ -60,12 +60,3 @@ export default function Soundon() {
     </>
   )
 }
-//1:28:00 da kaldım buradan devam
-
-/*
-1- Footer hidden kalsın öyle devam 
-2- resize CSS index den matching den devam (resize.js mouse follow olacak "https://www.youtube.com/watch?v=yKRLSfaJOWI") --
-3- Page transition yazılacak
-4- AppLogo yeniden Sidebar a dahil edilecek ++
-5- Body içerisindeki Header section scrool down move transition olacak.
-*/
