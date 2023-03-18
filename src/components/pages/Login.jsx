@@ -1,9 +1,11 @@
-//ICONS
+//icons
 import { BsSoundwave } from  'react-icons/bs';
 //Typewriter
 import { Typewriter, Cursor } from 'react-simple-typewriter';
+//.env
+
 export default function Login() {
-    
+  
     const handleClick = async () => {
       const client_id = "88f9d148f03840d18ae41a1cd1d37a9a";
       const redirect_uri = "http://localhost:3000/soundon";
@@ -49,7 +51,7 @@ export default function Login() {
                     >
                       <h1
                         className='flex flex-col-2 h-fit w-fit bg-clip-text text-transparent
-                                  bg-gradient-to-r from-slate-100 to-purple-900 text-2xl'
+                                   bg-gradient-to-r from-slate-100 to-purple-900 text-2xl'
                         >
                           soundon   <BsSoundwave size='0.8em' color='' className='mt-2 text-slate-100'/>
                       </h1>
@@ -57,7 +59,7 @@ export default function Login() {
                 </header>
                 <div 
                   className='flex z-10 text-sm flex-col h-fit w-full item-center justify-center gap-20 items-center'
-                  >
+                >
                     <h1 className='flex w-80 h-fit font-semibold text-zinc-400 '>
                       This is a music web application for my Spotify library. 
                       It only shows what I listened recently and my music lists to the other users.            
@@ -74,47 +76,34 @@ export default function Login() {
                         </button>
                       </div>  
                     </div>
-                    <div className='flex w-80 h-fit font-semibold text-zinc-400'>
-                        You can go to the mobile view directly by the clicking
-                        icon down below. Icon shows a QR code to scan with your phone's camera.
-                    </div>
                     <div 
-                      className=
-                      "flex text-white text-xl absolute bottom-24 left-36 py-20 px-20"
-                      >  
-                        <div className="flex ml-7 mb-2 bg-slate-200 h-14 w-14 blur-xl animate-pulse animate-spin"></div>
-                        <div className="flex absolute ml-7 mb-2 bg-slate-200 h-12 w-12 blur-xl animate-pulse"></div>
-                        <img className=' flex absolute left-28 h-12 w-12 rounded-xl drop-shadow-2xl shadow-2xl' src="Applogo.png" alt='' />
-                    </div> 
-            
-                </div>
-                <footer 
-                  className='flex flex-col absolute bottom-0 text-white text-sm
-                            m-5 text-left'
-                  >
-                    <text className='flex fit h-fit text-left'>
-                        All source codes related to this project can be found on 
-                        <a
-                            className="font-bold hover:text-white ml-1 mr-1 text-purple-400 after:content-[''] ..."
-                            rel="noreferrer"  
-                            href="https://github.com/berkinkinay" target="_blank"
+                      className='flex flex-col w-full h-full font-semibold text-zinc-400 
+                                 items-center justify-center'
+                    >
+                       <text className='flex fit h-fit text-left'>
+                             All source codes related to this project can be found on 
+                             <a
+                              className="font-bold hover:text-white ml-1 mr-1 text-purple-400 after:content-[''] ..."
+                              rel="noreferrer"  
+                              href="https://github.com/berkinkinay" target="_blank"
                             >
                               Developer's
-                      </a>    github account or
-                    </text>
-                    <text className='flex fit h-fit'>
-                        You can click here
-                        <a
-                          className="font-bold hover:text-white ml-1 mr-1 text-purple-400 after:content-[''] ..."
-                          rel="noreferrer"  
-                          href="https://berkinkinay.dev/" target="_blank"
-                        >
-                          Berkin Kınay 
-                        </a> 
-                          to learn more.
-                    </text>
-                </footer>
-            </div>
+                              </a> github account or
+                            </text>
+                            <text className='flex fit h-fit'>
+                              You can click here
+                              <a
+                                className="font-bold hover:text-white ml-1 mr-1 text-purple-400 after:content-[''] ..."
+                                rel="noreferrer"  
+                                href="https://berkinkinay.dev/" target="_blank"
+                              >
+                                Berkin Kınay 
+                              </a> 
+                                to learn more.
+                            </text>
+                      </div>               
+                  </div>
+              </div>
             <div 
               className='flex flex-col items-center justify-center w-full h-screen 
                          bg-gradient-to-t from-pink-300 via-gray-100 to-purple-900'
