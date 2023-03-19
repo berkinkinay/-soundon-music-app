@@ -49,13 +49,3 @@ export default function MCurrentTrack () {
       </div>
     )
   };
-
-  /* 
-        <div 
-        className='grid grid-cols-3 gap-96 text-white text-base w-full '
-        >
-          <div className='flex items-center justify-center'>left</div>
-          <div className='flex items-center justify-center'>mid</div>
-          <div className='flex items-center justify-center'>right</div>
-      </div>
-  */
