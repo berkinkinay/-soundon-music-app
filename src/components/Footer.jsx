@@ -1,5 +1,5 @@
 import React from "react";
-//COMPONENTS
+//components
 import CurrentlyPlayed from "./CurrentlyPlayed";
 import PlayerControls from "./PlayerControls";
 import Volume from "./Volume";
