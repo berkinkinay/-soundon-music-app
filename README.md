@@ -12,7 +12,7 @@
 
 ## Project Link 🔭
 
-`The project has not deployed yet but it will be here soon` => [Review]
+`The project has not deployed yet but it will be here soon (upcoming update on 05.04.23)` => [Review]
 
 ## Licance
 ### `MIT` ⚖️
