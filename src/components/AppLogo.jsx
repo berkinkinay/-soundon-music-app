@@ -1,6 +1,6 @@
-//COMPONENT
+//component
 import SearchBar from "./Navbar"
-//ICONS
+//icon
 import { BsSoundwave } from  'react-icons/bs';
 
 const AppLogo = () => {
