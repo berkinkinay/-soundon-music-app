@@ -12,7 +12,7 @@
 
 ## Project Link 🔭
 
-`The project has not deployed yet but it will be here soon (upcoming update on 05.05.23)` => [Demo](https://berkinkinay.dev/)
+`See the project what it looks like` => => [Demo](https://soundon-theta.vercel.app/)
 
 ## Licance
 ### `MIT` ⚖️
