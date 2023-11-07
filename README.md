@@ -12,7 +12,7 @@
 
 ## Project Link 🔭
 
-`The project has not deployed yet but it will be here soon (upcoming update on 05.05.23)` => [Review]
+`The project has not deployed yet but it will be here soon (upcoming update on 05.05.23)` => [Demo](https://berkinkinay.dev/)
 
 ## Licance
 ### `MIT` ⚖️
